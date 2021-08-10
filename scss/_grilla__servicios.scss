@@ -1,0 +1,250 @@
+@import "generales";
+
+.tituloServicios{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.titulo{
+    font-family: $font;
+    padding: 5px;
+    margin: 5px;
+}
+.servicios{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "titulo descripcion descripcion"
+    "card1 card2 card3"
+    "card4 card5 card6"
+    "footer footer footer";
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.header{
+    grid-area: header;
+}
+.card1{
+    grid-area: card1;
+}
+.card2{
+    grid-area: card2;
+}
+.card3{
+    grid-area: card3;
+}
+.card4{
+    grid-area: card4;
+}
+.card5{
+    grid-area: card5;
+}
+.card6{
+    grid-area: card6;
+}
+.card1__ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    font-family: $font;
+    
+
+}
+.card2__ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    font-family: $font;
+    
+
+}
+.card3__ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    font-family: $font;
+    
+
+}
+.card4__ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    font-family: $font;
+    
+
+}
+.card5__ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    font-family: $font;
+    
+
+}
+.card6__ubicacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    font-family: $font;
+    
+
+}
+.img__servicios{
+    width: 100%;
+    height: 350px;
+
+}
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  
+  
+@media only screen and (min-width:0px) and (max-width:767px){
+    .servicios{
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "titulo descripcion"
+        "card1 card1" 
+        "card2 card2" 
+        "card3 card3"
+        "card4 card4"
+        "card5 card5"
+        "card6 card6"
+        "footer footer";
+        grid-template-rows: 100px auto auto auto auto auto auto auto auto;
+        grid-template-columns: 50% 50%;
+    }
+    .header{
+        grid-area: header;
+    }
+    .card1{
+        grid-area: card1;
+    }
+    .card2{
+        grid-area: card2;
+    }
+    .card3{
+        grid-area: card3;
+    }
+    .card4{
+        grid-area: card4;
+    }
+    .card5{
+        grid-area: card5;
+    }
+    .card6{
+        grid-area: card6;
+    }
+    
+    .card__titulo{
+        font-family: $font;
+    }
+    .card1__ubicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        padding: 10px;
+        background-color: white;
+        font-family: $font;
+
+    }
+    .card2__ubicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        padding: 10px;
+        background-color: white;
+        font-family: $font;
+
+    }
+    .card3__ubicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        padding: 10px;
+        background-color: white;
+        font-family: $font;
+
+    }
+    .card4__ubicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        padding: 10px;
+        background-color: white;
+        font-family: $font;
+
+    }
+    .card5__ubicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        padding: 10px;
+        background-color: white;
+        font-family: $font;
+
+    }
+    .card6__ubicacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px;
+        padding: 10px;
+        background-color: white;
+        font-family: $font;
+
+    }
+.card__titulo{
+    font-family: $font;
+    font-weight: 300;
+}
+    .img__servicios{
+        width: 100%;
+    }
+}

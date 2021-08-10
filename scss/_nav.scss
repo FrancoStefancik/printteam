@@ -1,0 +1,19 @@
+@import "generales";
+
+
+.navBackground{
+    background-image:linear-gradient(#126E82, #51C4D3 );
+    top: 0%;
+}
+.navPadding{
+    padding: 0px;
+}
+.nav__logo{
+    font-family: $font;
+    font-weight: 900;
+    font-style: bold;
+    font-size: 30px;
+}
+.nav__sections{
+    font-family: $font;
+}

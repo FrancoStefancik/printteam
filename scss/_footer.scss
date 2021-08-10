@@ -1,0 +1,11 @@
+@import "generales";
+
+
+.footer{
+    background-image:linear-gradient(#126E82, #51C4D3 );
+    grid-area: footer;
+    font-family: $font;
+}
+.footerPadding{
+    padding: 0px;
+}

@@ -1,0 +1,29 @@
+$font:"roboto slab", sans-serif ;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #D8E3E7;
+    padding: 0px;
+    margin: 0px;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.parrafos{
+    font-family: $font;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding: 10px;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:767px){
+.img{
+    width: 100%;
+}
+}
